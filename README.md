@@ -36,10 +36,13 @@ We provide an example report ([`data/reports.json`](data/reports.json)) which yo
 - Solution Design
 
 
-## How to run
+## Notes about my solution
 - wrote the repo in an unix environment
 - stack: reactjs & expressjs
-- backend doesn't do much, only serves JSON and logs PUT request bodies (see below)
+- backend only serves JSON and logs PUT request bodies (see below)
+- didn't manage to do much in 3h because I had to refresh my React & Express knowlege on the fly
+
+## How to run
 - `$ npm install`
 - `$ npm start`
 
