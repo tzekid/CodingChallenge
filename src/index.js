@@ -13,7 +13,7 @@ function Report(props) {
   function sendState(decision) {
     // https://jasonwatmore.com/post/2021/09/05/fetch-http-post-request-examples
     const requestOptions = {
-      method: 'POST',
+      method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         decision: decision,

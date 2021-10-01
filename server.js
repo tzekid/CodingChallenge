@@ -14,7 +14,7 @@ app.get('/reports/', (req, res) => {
     res.send(JSON.parse(reports));
 });
 
-app.post('/reports/:reportId', (req, res) => {
+app.put('/reports/:reportId', (req, res) => {
     res.send('report ' + req.params.reportId);
     console.log('id:', req.params.reportId, 'sent body:', req.body);
 
