@@ -37,6 +37,6 @@ We provide an example report ([`data/reports.json`](data/reports.json)) which yo
 
 
 ## How to run
-- wrote the repo in a unix environment
+- wrote the repo in an unix environment
 - `$ npm install`
 - `$ npm start`
