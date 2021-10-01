@@ -38,5 +38,9 @@ We provide an example report ([`data/reports.json`](data/reports.json)) which yo
 
 ## How to run
 - wrote the repo in an unix environment
+- stack: reactjs & expressjs
+- backend doesn't do much, only serves JSON and logs PUT request bodies (see below)
 - `$ npm install`
 - `$ npm start`
+
+![Example Output](images/example_output.png)
