@@ -34,3 +34,9 @@ We provide an example report ([`data/reports.json`](data/reports.json)) which yo
 - Code quality
 - Technical choices
 - Solution Design
+
+
+## How to run
+- wrote the repo in a unix environment
+- `$ npm install`
+- `$ npm start`

@@ -1,0 +1,45 @@
+* {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.report {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 600px;
+  margin-bottom: -2px;
+  border: 2px solid darkblue;
+}
+
+.report>.row {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  margin: 5px 5px;
+  flex-grow: 1;
+}
+
+.report>.row>p {
+  margin: 3px 5px;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+
+.report>.row>button {
+  color: white;
+  background-color: rgb(20, 20, 147);
+
+  margin: 3px 5px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
